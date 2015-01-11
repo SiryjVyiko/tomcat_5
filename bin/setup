@@ -8,4 +8,4 @@ done
 [ -d "/opt/repo/logs" ] && rmdir /opt/repo/logs
 mkdir -p /opt/repo/versions/5.5.36/logs
 ln -s /opt/repo/versions/5.5.36/logs /opt/repo/logs
-sed -i 's/opt\/repo:\/bin\/bash/opt\/repo\/temp:\/bin\/bash/g' "/etc/passwd"
+sed -i 's/opt\/repo:\/bin\/bash/opt\/repo\/home:\/bin\/bash/g' "/etc/passwd"
